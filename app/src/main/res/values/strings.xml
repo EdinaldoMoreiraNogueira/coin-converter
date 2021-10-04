@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Coin Converter</string>
+    <string name="label_para">Para:</string>
+    <string name="label_converter">Converter</string>
+    <string name="label_salvar">Salvar</string>
+    <string name="label_converter_de">Converter de:</string>
+</resources>
