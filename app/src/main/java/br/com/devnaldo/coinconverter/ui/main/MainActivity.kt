@@ -6,9 +6,9 @@ import android.view.Menu
 import android.view.MenuItem
 import android.widget.ArrayAdapter
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.widget.doAfterTextChanged
 import br.com.devnaldo.coinconverter.R
-import br.com.devnaldo.coinconverter.core.extensions.createDialog
-import br.com.devnaldo.coinconverter.core.extensions.createProgressDialog
+import br.com.devnaldo.coinconverter.core.extensions.*
 import br.com.devnaldo.coinconverter.data.model.Coin
 import br.com.devnaldo.coinconverter.databinding.ActivityMainBinding
 import br.com.devnaldo.coinconverter.presentation.MainViewModel

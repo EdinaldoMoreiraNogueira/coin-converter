@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.squareup.okhttp3",
+    "module": "logging-interceptor",
+    "version": "5.0.0-alpha.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.1",
+      "buildId": "5jv6thsazzdcnjmfhf6a3x3lwi"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "5.0.0-alpha.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "logging-interceptor-5.0.0-alpha.2.jar",
+          "url": "logging-interceptor-5.0.0-alpha.2.jar",
+          "size": 16426,
+          "sha512": "453082ccc21f8f0f108c321dad75c88dc68e1889ecec46bcc75b096978856d2d58fb9b698d25d66dde11a33428024c61dd1072bc57d28fcb21a7033d76a954c5",
+          "sha256": "f7fff4200a6754decad395aedf5ebdd1ebffefbe38c474cd9f37a8cea332fd49",
+          "sha1": "14cd7ecfbf017f84d1f93fe51168188c4ebbd297",
+          "md5": "fcdca227143fbf702aa700fcf8026809"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "5.0.0-alpha.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "logging-interceptor-5.0.0-alpha.2.jar",
+          "url": "logging-interceptor-5.0.0-alpha.2.jar",
+          "size": 16426,
+          "sha512": "453082ccc21f8f0f108c321dad75c88dc68e1889ecec46bcc75b096978856d2d58fb9b698d25d66dde11a33428024c61dd1072bc57d28fcb21a7033d76a954c5",
+          "sha256": "f7fff4200a6754decad395aedf5ebdd1ebffefbe38c474cd9f37a8cea332fd49",
+          "sha1": "14cd7ecfbf017f84d1f93fe51168188c4ebbd297",
+          "md5": "fcdca227143fbf702aa700fcf8026809"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "logging-interceptor-5.0.0-alpha.2-javadoc.jar",
+          "url": "logging-interceptor-5.0.0-alpha.2-javadoc.jar",
+          "size": 261,
+          "sha512": "a166a4300da3a28163a08e6c15cce66a9e1b844dfea302f7170fa35361a873e6f5b613fd21b3bd41a3931f056d39ccfc370aa778f1ee7c1b5780cee674c41dba",
+          "sha256": "b1061fe9e33acd8cd3c89de1770f29a0f6c1a0c4976eb9228c4dabe0a1376587",
+          "sha1": "eb4a058e4999a6e984e65c8edaf51129fb6d8ea7",
+          "md5": "cf9681a164d7ddad4b18bd6b6fb19ed6"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "logging-interceptor-5.0.0-alpha.2-sources.jar",
+          "url": "logging-interceptor-5.0.0-alpha.2-sources.jar",
+          "size": 6156,
+          "sha512": "b02b9f2d6ee4a17d02aa032aab0a4457c16727a6dbbda00c5831e0baef80d5f5d9860476dee727f5602da053ae11c25f0da5abc495ff8aa69449dc3ce0e37ae9",
+          "sha256": "5b7dd4763d6261364cea5e0c290d039fa9c23df2e6a25e9dec0488f667299309",
+          "sha1": "65959b2dc0627a67fbbd8e04ece2866c2255f8a2",
+          "md5": "3107f069f4e003e13494bdb07e549b53"
+        }
+      ]
+    }
+  ]
+}

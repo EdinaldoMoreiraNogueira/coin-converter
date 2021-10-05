@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.insert-koin",
+    "module": "koin-core-ext",
+    "version": "3.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "bfcvrwpeyvegpeanfu6io7vpui"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "koin-core-ext-3.0.2.jar",
+          "url": "koin-core-ext-3.0.2.jar",
+          "size": 22513,
+          "sha512": "afc2c8a5c67be4daaf2b42e41f09fea54bee4b105513a0cb4c232501d8640fd6d77e3feb65b06ee859f90b28328f57fe96e93647a4d19bb5bf462fd5d9abacdd",
+          "sha256": "dad19d72636ad73d8e2263e0f22463f5f146591247b8c5936ae241b20b186da7",
+          "sha1": "96a7ed047d9d0aed9de266566ec754faad0d6273",
+          "md5": "2e1b6762c48a9f2fa00cab03290647d0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.insert-koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "koin-core-ext-3.0.2.jar",
+          "url": "koin-core-ext-3.0.2.jar",
+          "size": 22513,
+          "sha512": "afc2c8a5c67be4daaf2b42e41f09fea54bee4b105513a0cb4c232501d8640fd6d77e3feb65b06ee859f90b28328f57fe96e93647a4d19bb5bf462fd5d9abacdd",
+          "sha256": "dad19d72636ad73d8e2263e0f22463f5f146591247b8c5936ae241b20b186da7",
+          "sha1": "96a7ed047d9d0aed9de266566ec754faad0d6273",
+          "md5": "2e1b6762c48a9f2fa00cab03290647d0"
+        }
+      ]
+    }
+  ]
+}
